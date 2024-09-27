@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <style>
+      *{
+        overflow-x: hidden;
+      }
+      ion-icon {
+        font-size: 400%;
+        
+      }
+      
+      .main{
+        height: auto;
+        width: 75%;
+        transform: translate(15%);
+      }
+      .main4{
+        height: 100%;
+        width: 75%;
+        transform: translate(15%);
+      }
+      .main5{
+        height: 100%;
+        width: 75%;
+        transform: translate(15%);
+      }
+      .hr3{
+        height: 100%;
+        width: 75%;
+        transform: translate(15%);
+        
+      }
+      .hr4{
+        height: 100%;
+        width: 75%;
+        transform: translate(15%);
+        
+      }
+      .hr5{
+        height: 100%;
+        width: 75%;
+        transform: translate(15%);
+        
+      }
+      .main1 {
+        display: flex;
+      
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;  
+      }
+      h1{
+        font-size: 200%;
+        color: rgb(103, 103, 106); 
+      }
+      .p1{
+        
+        color: rgb(240, 235, 235);
+        background-color: rgb(34, 83, 157);
+        font-size: x-large;
+        
+       
+        margin-top: 2%;
+        border-radius: 3%;
+        padding: 1%;
+        /* margin-left: 639px; */
+        /* position: fixed; */
+        /* left: 690px; */
+        
+        
+        align-content: center;
+      
+        
+        
+        
+        
+        
+        
+       
+      }
+      
+     
+      .img1 {
+       width: 100%;
+       height: 230px;
+       overflow: auto;
+       /* background-size: cover;
+       background-position: center; */
+       /* display: block; */
+
+       
+       object-fit: cover;
+        
+        
+      }
+      .para {
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
+
+      }
+      .paraa{
+        width: 58%;
+        height: 100%;
+      }
+      .para1 {
+        background-color: rgb(48, 162, 143);
+        align-content: center;
+        width: 30%;
+        
+        height: 30%;
+       display: flex;
+       flex-wrap: wrap;
+
+        padding: 50px;
+        color: white;
+        justify-content: center;
+        font-size:  x-large;
+        
+        
+      }
+      
+      .sub1 {
+        transform: translate(40%);
+        margin-top: -24%;
+      }
+      .mng{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+       
+        width: 90%;
+        
+      }
+      .mng11{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 60%;
+
+      }
+      
+      .mng1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 95%;
+        
+        
+        
+      }
+      
+      .mng2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+        width: 100%;
+        
+      }
+      .mng3{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+        width: 100%;
+        
+      }
+      .last1{
+        border: inset 2px;
+        height: 170px;
+        width: 400px;
+      }
+      
+     
+     .Q1{
+      font-size: xx-large;
+      
+     }
+     .Q2{
+      font-size: xx-large;
+      
+     }
+     .Q3{
+      font-size: xx-large;
+      
+     }
+
+     @media  screen and (min-width:0px) and (max-width:425px) {
+
+      
+
+
+
+      .paraa{
+        width: 100%;
+      }
+      .para1{
+        width: 100%;
+        /* align-content: center; */
+      }
+      .mng{
+        width: 100%;
+        height: 100%;
+      }
+      .mng11{
+        width: 100%;
+        height: 100%;
+      }
+      .img1{
+        width: 100%;
+        height: 100%;
+      }
+      .img2{
+        width: 100%;
+        height: 100%;
+
+      }
+      
+      .img3{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        
+        
+      }
+      .img4{
+        width: 80%;
+        height: 100%;
+      }
+      .last1{
+        margin-top: 15%;
+      }
+      
+      
+      
+     }
+    
+     
+     @media  screen and (min-width:426px) and (max-width:769px){
+
+
+      
+      .paraa{
+        width: 50%;
+      }
+      .last1{
+       margin-top: 10%;
+      }
+      .mng{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 5%;
+      }
+      .mng11{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 5%;
+      }
+      .img2{
+        width: 100%;
+        height: 100%;
+      }
+      .sandyz{
+        margin-top: 12%;
+      }
+      .img3{
+        width: 80%;
+        height: 80%;
+      }
+      .img4{
+        width: 65%;
+        height: 80%;
+      }
+     
+     }
+
+        
+    
+
+      
+      
+      
+      
+
+      
+      
+      
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      
+
+      <div class="main1">
+        <div style="display: flex; flex-wrap: wrap;">
+          <ion-icon name="chatbubbles-outline"></ion-icon>
+         <h1>Image-Survey</h1>
+        </div>
+        <div class="p1" >Contact Us</div>
+      </div><br><br>
+
+      <div class="sandy">
+        
+        <img class="img1" src="main img.jpg" /><br><br>
+        <div class="para" >
+          <div class="paraa">
+            This survey form HTML template provides answer choices with
+            different images. You can feel free to modify and use it for your
+            data collection projects or websites. All images used in this page
+            are from <m style="color: rgb(55, 63, 216);">Unsplash</m>. You are not allowed to re-post this template on
+            your template sites as a download zip file. You can put a screenshot
+            and a link back to <m style="color:rgb(55, 63, 216) ;">templatemo</m> site. Thank you.
+          </div>
+        
+          <div class="para1"><i>"Your Opinion matters"</i></div>
+        </div>
+      </div>
+      <br />
+      <div class="h1"><hr style="border: 2px solid rgb(51, 146, 165)" /></div>
+      <br />
+      <div class="main2">
+        <a class="Q1" style="color: rgb(8, 115, 137) ">Question 1</a>
+        <m class="q1">
+          <br /><br>
+          Fusce feuglat, est dignissim feugiat dapibus, arcu lacus varius dolor,
+          vel auctor oado lectus sed diam. Ut gravida tristique lacus, sed
+          molestie tellus faucibus non. </m>
+        <br /><br />
+        <div class="mng">
+
+          <div>
+            <input type="radio" id="A" />
+            <label for="A">A.Pellentesque Quis Matus</label><br /><br />
+            <div><img class=" img2" src="img1.jpg" /></div>
+          </div>
+
+          <div>
+            <input type="radio" id="B" />
+            <label for="B">B.Morbi Faucibus tellus</label><br /><br />
+            <div><img class= "  img2" src="img2.jpg" /></div>
+           </div>
+
+           <div>
+            <input type="radio" id="C" />
+            <label for="C">C.Ut ullamcorper orci eget</label><br /><br />
+            <div><img class="  img2" src="img3.jpg" /></div>
+           </div>
+        
+          </div>
+          <div class="mng11">
+          <div>
+            <input type="radio" id="D" />
+            <label for="D">D.Sed nec faucibus ex</label><br /><br />
+            <div><img class="img2" src="img4.jpg" /></div>
+           </div>
+           
+           <div>
+            <input type="radio" id="E" />
+            <label for="E">E.Maecenas pretium</label><br /><br />
+            <div><img class=" sandyz img2" src="img5.jpg" /></div>
+           </div>
+          </div>
+
+          
+       </div>
+       <br />
+      <hr style="border: 2px solid rgb(61, 145, 161)" />
+      <br />
+      <div class="main3">
+        <a class="Q2" style="color: rgb(8, 115, 137)">Question 2</a>
+        <m class="q2"
+          ><br /><br>
+          Aliquam blandit eros eget sollicitudin venenatis. Maecenas sagittis dui id neque convallis scelerisque. Nullam lobortis ex nibh, id fringilla
+            arcu varlus ar. Morbi tinclaunt aignissim ante id aliquet. </m
+        ><br /><br />
+        <div class="mng1">
+
+          <div>
+            <input type="checkbox" id="A" />
+            <label for="A">Option 1</label><br /><br />
+            <div><img class="img3" src="img6.jpg" /></div>
+          </div>
+
+          <div>
+            <input type="checkbox" id="B" />
+            <label for="B">Option 2</label><br /><br />
+            <div><img class="img3" src="img7.jpg" /></div>
+           </div>
+
+           <div>
+            <input type="checkbox" id="C" />
+            <label for="C">Option 3</label><br /><br />
+            <div><img class="img3" src="img8.jpg" /></div>
+           </div>
+        
+        
+          <div>
+            <input type="checkbox" id="D" />
+            <label for="D">Option 4</label><br /><br />
+            <div><img class="img3" src="img9.jpg" /></div>
+           </div>
+           
+           <div>
+            <input type="checkbox" id="E" />
+            <label for="E">Option 5</label><br /><br />
+            <div><img class="  img3" src="img10.jpg" /></div>
+           </div>
+
+          </div>
+       </div>
+      </div>
+      <br />
+      <div class="hr3"><hr style="border: 2px solid rgb(61, 145, 161)" /></div>
+  
+      <br />
+      <div class="main4">
+        <a class="Q3" style="color: rgb(8, 115, 137)">Question 3</a>
+        <m class="q3"
+          ><br /><br>
+          In tincidunt non nisl quis posuere. Praesent justo libero, eleifend at rhoncus a, ultrices non mi. Pellentesque quis metus a nulla commodo consectetur. In ultricies lorem accumsan, euismod tellus egestas.</m
+        ><br /><br />
+        <div class="mng2">
+
+          <div>
+            <br /><br />
+            <div><img class="img4" src="img11.jpg" /></div><br>
+            <input type="radio" id="A" />
+            <label for="A">Image 1</label>
+          </div>
+
+          <div>
+            <br /><br />
+            <div><img class="img4" src="img12.jpg" /></div><br>
+            <input type="radio" id="B" />
+            <label for="B">Image 2</label>
+           </div>
+
+           <div>
+            <br /><br />
+            <div><img class="img4" src="img13.jpg" /></div><br>
+            <input type="radio" id="C" />
+            <label for="C">Image 3</label>
+           </div>
+        
+        
+          <div>
+            <br /><br />
+            <div><img class="img4" src="img14.jpg" /></div><br>
+            <input type="radio" id="D" />
+            <label for="D">Image 4</label>
+           </div>
+           
+           <div>
+          <br><br >
+            <div><img class="img4" src="img15.jpg" /></div><br>
+            <input type="radio" id="E" />
+            <label for="E">Image 5</label>
+           </div>
+
+          </div>
+       </div>
+
+
+
+
+      </div>
+      <br />
+      <div class="hr4"><hr style="border: 2px solid rgb(61, 145, 161)" /></div>
+  
+      <br />
+      <div class="main5">
+        <a  class="Q4" style="color: rgb(8, 115, 137)">Please tell a little bit about yourself</a><br><br>
+       
+         <div class="mng3">
+         <div ><label for="a">Your Name</label><br>
+          <input type="text" id="a">
+          <br><br><br>
+         <label for="a">Your Email</label><br>
+              <input type="text" id="a" >
+            </div><br>
+            <div><br>
+              <input type="radio" id="E" />
+              <label for="E">male</label>
+              <input type="radio" id="E" />
+              <label for="E">Female</label>
+            <br><br><br><br>
+              
+               <div > <select name="san" id="san">
+               <div class="last2"> <option for= "a"> Your Occupation    </option>
+                <option for="a"> farmer    </option>
+                <option for="a"> student   </option>
+                <option for="a">business   </option></div>
+
+              </select></div>
+            </div><br><br>
+            <br><br>
+            <div class="last1">
+              Additional Opinions<br>
+              
+
+            </div>
+
+          </div>
+          <br><br>
+        
+        
+         <div class=submit>
+          <center><input type="submit" style="background-color: rgb(38, 38, 126); color: white; "></center>
+        </div>
+        
+
+
+      </div>
+      <br />
+      <div class="hr5"><hr style="border: 2px solid rgb(61, 145, 161)" /></div>
+  
+      <br>
+      <div class="last0"><center><small>Copyright@2018 Your Survey Name-HTML Form By <n style="color:rgb(8, 115, 137) ;">TemplateMo</n></small></center></div>
+
+
+
+    </div>
+    
+  
+  </body>
+</html>
